@@ -1,8 +1,9 @@
-"""CLI: fetch Sahadan, filter, write JSON. Used by the container cron loop."""
+"""CLI: fetch Sahadan + Spor Ekranı, filter, write JSON."""
 
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 import time
 from datetime import datetime
@@ -10,18 +11,36 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from tvsports_backend.fetch_sahadan import DEFAULT_HORIZON_DAYS, fetch_horizon
+from tvsports_backend.fetch_sporekrani import fetch_horizon as fetch_sporekrani
 from tvsports_backend.publish import build_document, write_document
 
 ISTANBUL = ZoneInfo("Europe/Istanbul")
 
 
+def _include_demo() -> bool:
+    """Return True when the calendar overflow demo day should be published."""
+    return os.environ.get("TVSPORTS_INCLUDE_DEMO", "0") == "1"
+
+
 def refresh(output_dir: Path, horizon_days: int) -> Path:
-    """Fetch, filter, and write a new schedule document."""
+    """Fetch, filter, merge, and write a new schedule document."""
     raw = fetch_horizon(days=horizon_days)
-    document = build_document(raw, horizon_days=horizon_days)
+    sporekrani_raw: list = []
+    try:
+        sporekrani_raw = fetch_sporekrani()
+        print(f"sporekrani raw={len(sporekrani_raw)}", flush=True)
+    except Exception as exc:  # noqa: BLE001 — Sahadan-only publish is still useful
+        print(f"sporekrani failed: {exc}", file=sys.stderr, flush=True)
+    document = build_document(
+        raw,
+        horizon_days=horizon_days,
+        sporekrani_raw=sporekrani_raw,
+        include_demo=_include_demo(),
+    )
     path = write_document(document, output_dir)
     print(
         f"wrote {path} events={document['event_count']} "
+        f"source={document['source']} horizon={document['horizon_days']} "
         f"generated_at={document['generated_at']}",
         flush=True,
     )
@@ -47,7 +66,7 @@ def seconds_until_next_run(now: datetime, hours: tuple[int, ...] = (6, 18)) -> i
 
 def main(argv: list[str] | None = None) -> int:
     """Parse CLI arguments and run a one-shot refresh or the daily loop."""
-    parser = argparse.ArgumentParser(description="TVsports Sahadan publisher")
+    parser = argparse.ArgumentParser(description="TVsports schedule publisher")
     parser.add_argument(
         "--output-dir",
         default="/data",

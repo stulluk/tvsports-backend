@@ -22,10 +22,13 @@ ENTITY_REAL = "real_madrid"
 ENTITY_BARCA = "barcelona"
 ENTITY_F1 = "formula1"
 
-WOMEN_MARK = re.compile(r"\(k\)", re.IGNORECASE)
+WOMEN_MARK = re.compile(
+    r"\(k\)|kadinlar|kadınlar|\bwomen\b",
+    re.IGNORECASE,
+)
 YOUTH_MARK = re.compile(r"\b(u1[5-9]|u2[0-3]|genç|genc|koleji)\b", re.IGNORECASE)
 F1_KEEP = re.compile(
-    r"sıralama|siralama|qualif|quali|sprint|yarış|yaris|\brace\b",
+    r"sıralama|siralama|qualif|quali|sprint|yarış|yaris|\brace\b|\bgp\b",
     re.IGNORECASE,
 )
 F1_DROP = re.compile(
@@ -57,6 +60,116 @@ def _norm(text: str) -> str:
     return text.translate(table).lower()
 
 
+# Dropped after normalize so "Amed SK" and "Amedspor" share the token "amed".
+GENERIC_CLUB_TOKENS = {
+    "sk",
+    "fk",
+    "afc",
+    "fc",
+    "cf",
+    "bld",
+    "belediyesi",
+    "belediye",
+    "basket",
+    "basketbol",
+    "kulubu",
+    "club",
+    "jk",
+    "as",
+    "ac",
+}
+# Extra tokens that mean a different squad, not a spelling variant.
+BRANCH_CLUB_TOKENS = {"tarfin", "koleji", "mct", "k"}
+CLUB_PUNCT = re.compile(r"[^a-z0-9\s.]")
+
+
+def club_tokens(name: str) -> tuple[str, ...]:
+    """Return comparable tokens for a club name.
+
+    Strips punctuation, generic suffixes (SK / FK / Basket), and a trailing
+    ``spor`` so ``Amedspor`` and ``Amed SK`` both become ``("amed",)``.
+    Branch markers such as Tarfin / Koleji are kept.
+    """
+    cleaned = CLUB_PUNCT.sub(" ", _norm(name)).replace(".", " ")
+    tokens: list[str] = []
+    for raw in cleaned.split():
+        if raw in GENERIC_CLUB_TOKENS:
+            continue
+        if raw.endswith("spor") and len(raw) > 4:
+            raw = raw[:-4]
+        if raw:
+            tokens.append(raw)
+    return tuple(tokens)
+
+
+def tokens_similar(left: tuple[str, ...], right: tuple[str, ...]) -> bool:
+    """Return True when two token tuples name the same club."""
+    if left == right:
+        return True
+    if not left or not right:
+        return False
+    if len(left) == len(right) and all(
+        a == b or a.startswith(b) or b.startswith(a) for a, b in zip(left, right)
+    ):
+        return True
+    extra: set[str]
+    if set(left) <= set(right):
+        extra = set(right) - set(left)
+    elif set(right) <= set(left):
+        extra = set(left) - set(right)
+    else:
+        return False
+    return not extra.intersection(BRANCH_CLUB_TOKENS)
+
+
+def sides_match(first: dict[str, Any], second: dict[str, Any]) -> bool:
+    """Return True when home/away name the same pairing, order ignored."""
+    a_home = club_tokens(str(first.get("home") or ""))
+    a_away = club_tokens(str(first.get("away") or ""))
+    b_home = club_tokens(str(second.get("home") or ""))
+    b_away = club_tokens(str(second.get("away") or ""))
+    return (
+        tokens_similar(a_home, b_home) and tokens_similar(a_away, b_away)
+    ) or (
+        tokens_similar(a_home, b_away) and tokens_similar(a_away, b_home)
+    )
+
+
+def kickoff_minutes(event: dict[str, Any]) -> int | None:
+    """Return Istanbul kickoff as minutes from midnight, or None."""
+    stamp = str(event.get("starts_at_istanbul") or "")
+    if len(stamp) < 16:
+        return None
+    try:
+        hour, minute = stamp[11:16].split(":")
+        return int(hour) * 60 + int(minute)
+    except ValueError:
+        return None
+
+
+def is_same_fixture(
+    first: dict[str, Any],
+    second: dict[str, Any],
+    window_minutes: int = 30,
+) -> bool:
+    """Return True when two rows are the same match under different spellings."""
+    day_a = str(first.get("starts_at_istanbul") or "")[:10]
+    day_b = str(second.get("starts_at_istanbul") or "")[:10]
+    if not day_a or day_a != day_b:
+        return False
+    time_a = kickoff_minutes(first)
+    time_b = kickoff_minutes(second)
+    if time_a is None or time_b is None:
+        return False
+    if abs(time_a - time_b) > window_minutes:
+        return False
+    sport_a = first.get("sport_id")
+    sport_b = second.get("sport_id")
+    if sport_a and sport_b and sport_a != sport_b:
+        return False
+    return sides_match(first, second)
+
+
 def _sides(match_name: str) -> tuple[str, str]:
     """Split 'Home - Away' and return both sides (empty away if no dash)."""
     parts = [part.strip() for part in match_name.split(" - ", 1)]
@@ -65,11 +178,12 @@ def _sides(match_name: str) -> tuple[str, str]:
     return parts[0], parts[1]
 
 
-def _is_mens_senior_football(match_name: str) -> bool:
+def _is_mens_senior_football(match_name: str, extra_text: str = "") -> bool:
     """Return True when the listing is men's first-team football."""
-    if WOMEN_MARK.search(match_name):
+    blob = f"{match_name} {extra_text}"
+    if WOMEN_MARK.search(blob):
         return False
-    if YOUTH_MARK.search(match_name):
+    if YOUTH_MARK.search(blob):
         return False
     return True
 
@@ -92,7 +206,12 @@ def is_formula1_broadcast(match_name: str, sport_name: str) -> bool:
     return bool(F1_KEEP.search(match_name) or F1_KEEP.search(sport_name))
 
 
-def classify_entities(match_name: str, sport: int, sport_name: str) -> list[str]:
+def classify_entities(
+    match_name: str,
+    sport: int,
+    sport_name: str,
+    extra_text: str = "",
+) -> list[str]:
     """Return entity ids that this broadcast belongs to."""
     home, away = _sides(match_name)
     entities: list[str] = []
@@ -101,7 +220,7 @@ def classify_entities(match_name: str, sport: int, sport_name: str) -> list[str]
         entities.append(ENTITY_F1)
         return entities
 
-    if sport == SPORT_FOOTBALL and _is_mens_senior_football(match_name):
+    if sport == SPORT_FOOTBALL and _is_mens_senior_football(match_name, extra_text):
         for side in (home, away, match_name):
             if _mentions(side, "fenerbahce") and not _mentions(side, "tarfin"):
                 entities.append(ENTITY_FENER_FOOTBALL)
@@ -169,7 +288,8 @@ def filter_broadcasts(raw_broadcasts: list[dict[str, Any]]) -> list[dict[str, An
         name = match.get("name") or ""
         sport = int(match.get("sport") or 0)
         sport_name = match.get("sport_name") or ""
-        entities = classify_entities(name, sport, sport_name)
+        extra = str(item.get("source_url") or item.get("extra_text") or "")
+        entities = classify_entities(name, sport, sport_name, extra)
         if not entities:
             continue
         home, away = _sides(name)
@@ -187,6 +307,7 @@ def filter_broadcasts(raw_broadcasts: list[dict[str, Any]]) -> list[dict[str, An
                 "sport_id": sport,
                 "channels": channel_names(item),
                 "entity_ids": entities,
+                "source": item.get("source") or "sahadan",
             }
         )
     kept.sort(key=lambda row: (row.get("starts_at_utc") or "", row.get("title") or ""))

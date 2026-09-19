@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tvsports-backend"
-version = "0.1.1"
-description = "Fetch Sahadan TV sports listings and publish a filtered JSON feed"
+version = "0.2.1"
+description = "Fetch Sahadan and Spor Ekranı TV listings and publish a filtered JSON feed"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "AGPL-3.0-or-later" }

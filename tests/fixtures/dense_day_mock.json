@@ -1,0 +1,132 @@
+{
+  "schema": "tvsports.schedule.v1",
+  "event_count": 7,
+  "events": [
+    {
+      "id": "demo-dense-fenerbahce_football",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 12:00:00",
+      "starts_at_istanbul": "2026-09-23 15:00:00",
+      "title": "[DEMO] Fenerbahçe - Demo A",
+      "home": "Fenerbahçe",
+      "away": "Demo A",
+      "sport": "Futbol",
+      "sport_id": 1,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "fenerbahce_football"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-fenerbahce_basketball",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 13:00:00",
+      "starts_at_istanbul": "2026-09-23 16:00:00",
+      "title": "[DEMO] Fenerbahçe Tarfin - Demo B",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Demo B",
+      "sport": "Basketbol",
+      "sport_id": 2,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "fenerbahce_basketball"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-galatasaray",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 14:00:00",
+      "starts_at_istanbul": "2026-09-23 17:00:00",
+      "title": "[DEMO] Galatasaray - Demo C",
+      "home": "Galatasaray",
+      "away": "Demo C",
+      "sport": "Futbol",
+      "sport_id": 1,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "galatasaray"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-besiktas",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 15:00:00",
+      "starts_at_istanbul": "2026-09-23 18:00:00",
+      "title": "[DEMO] Beşiktaş - Demo D",
+      "home": "Beşiktaş",
+      "away": "Demo D",
+      "sport": "Futbol",
+      "sport_id": 1,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "besiktas"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-trabzonspor",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 16:00:00",
+      "starts_at_istanbul": "2026-09-23 19:00:00",
+      "title": "[DEMO] Trabzonspor - Demo E",
+      "home": "Trabzonspor",
+      "away": "Demo E",
+      "sport": "Futbol",
+      "sport_id": 1,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "trabzonspor"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-real_madrid",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 17:00:00",
+      "starts_at_istanbul": "2026-09-23 20:00:00",
+      "title": "[DEMO] Real Madrid - Demo F",
+      "home": "Real Madrid",
+      "away": "Demo F",
+      "sport": "Futbol",
+      "sport_id": 1,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "real_madrid"
+      ],
+      "source": "mock"
+    },
+    {
+      "id": "demo-dense-formula1",
+      "source_match_id": null,
+      "starts_at_utc": "2026-09-23 18:00:00",
+      "starts_at_istanbul": "2026-09-23 21:00:00",
+      "title": "[DEMO] Formula 1 - Demo GP",
+      "home": "Formula 1",
+      "away": "Demo GP",
+      "sport": "Formula 1",
+      "sport_id": 99,
+      "channels": [
+        "Demo TV"
+      ],
+      "entity_ids": [
+        "formula1"
+      ],
+      "source": "mock"
+    }
+  ]
+}

@@ -40,7 +40,8 @@ docker-compose --env-file .env up -d --build"
 
 echo "start dc4 stack and ntfy vhost"
 ssh -o BatchMode=yes dc4 "cd /home/ubuntu/tvsports-backend
-docker-compose -f docker-compose.dc4-full.yml up -d --build
+docker-compose -f docker-compose.dc4-full.yml down
+docker-compose -f docker-compose.dc4-full.yml up -d --build --force-recreate
 python3 /home/ubuntu/tvsports-backend/deploy/ensure_dc4_ntfy_vhost.py
 docker exec ntfy-caddy caddy reload --config /etc/caddy/Caddyfile"
 

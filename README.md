@@ -14,8 +14,16 @@ GitHub Actions secrets if you add CI later.
 ## What is published
 
 `schedule.json` is rebuilt on container start and again at 06:00 and
-18:00 Europe/Istanbul. Horizon is five Sahadan day-tabs (their own UI
-window: previous day 21:00 through that day 20:59).
+18:00 Europe/Istanbul. Sahadan covers the next five day-tabs (previous
+day 21:00 through that day 20:59). Spor Ekranı team / F1 JSON-LD fills
+later fixtures through roughly two months. On the same match, Sahadan
+wins because its channel list is usually better. Club names are compared
+after stripping SK/FK/Basket and a trailing ``spor``, so ``Amed SK`` and
+``Amedspor`` (or ``Atl. Madrid`` / ``Atletico Madrid``) collapse to one
+row without an AI step on the servers.
+
+`TVSPORTS_INCLUDE_DEMO=1` can inject a seven-event mock day for calendar
+overflow checks. It stays off in production.
 
 Followed entities (filter is in `src/tvsports_backend/filter_events.py`):
 
