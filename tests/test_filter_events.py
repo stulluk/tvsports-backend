@@ -5,7 +5,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from tvsports_backend.filter_events import classify_entities, filter_broadcasts
+from tvsports_backend.filter_events import (
+    classify_entities,
+    filter_broadcasts,
+    sahadan_utc_to_istanbul,
+)
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sahadan_sample.json"
 
@@ -40,6 +44,20 @@ def test_drops_women_youth_other_branches_and_f4() -> None:
 def test_derby_is_tagged_for_both_clubs() -> None:
     entities = classify_entities("Trabzonspor - Galatasaray", 1, "Futbol")
     assert entities == ["trabzonspor", "galatasaray"]
+
+
+def test_sahadan_utc_becomes_istanbul_plus_three() -> None:
+    utc, istanbul = sahadan_utc_to_istanbul("2026-09-19 17:00:00")
+    assert utc == "2026-09-19 17:00:00"
+    assert istanbul == "2026-09-19 20:00:00"
+
+
+def test_published_ts_gs_uses_istanbul_kickoff() -> None:
+    raw = json.loads(FIXTURE.read_text(encoding="utf-8"))
+    events = filter_broadcasts(raw)
+    derby = next(item for item in events if item["title"] == "Trabzonspor - Galatasaray")
+    assert derby["starts_at_utc"] == "2026-09-19 17:00:00"
+    assert derby["starts_at_istanbul"] == "2026-09-19 20:00:00"
 
 
 def test_f1_keeps_quali_drops_practice() -> None:

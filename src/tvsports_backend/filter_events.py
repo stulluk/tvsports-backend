@@ -3,7 +3,12 @@
 from __future__ import annotations
 
 import re
+from datetime import datetime, timezone
 from typing import Any
+from zoneinfo import ZoneInfo
+
+ISTANBUL = ZoneInfo("Europe/Istanbul")
+SAHADAN_NAIVE = "%Y-%m-%d %H:%M:%S"
 
 SPORT_FOOTBALL = 1
 SPORT_BASKETBALL = 2
@@ -127,6 +132,24 @@ def classify_entities(match_name: str, sport: int, sport_name: str) -> list[str]
     return unique
 
 
+def sahadan_utc_to_istanbul(raw: str | None) -> tuple[str | None, str | None]:
+    """Parse Sahadan's naive UTC stamp and return (utc, istanbul) wall strings.
+
+    Sahadan stores ``date_time_utc`` as ``YYYY-MM-DD HH:MM:SS`` without a
+    zone, then the website does ``new Date(value.replace(' ','T')+'Z')`` and
+    shows it in the browser timezone. For Turkey that is Europe/Istanbul
+    (UTC+3, no DST). We do the same conversion so the app matches the site.
+    """
+    if not raw:
+        return None, None
+    try:
+        utc = datetime.strptime(raw, SAHADAN_NAIVE).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return raw, raw
+    istanbul = utc.astimezone(ISTANBUL)
+    return utc.strftime(SAHADAN_NAIVE), istanbul.strftime(SAHADAN_NAIVE)
+
+
 def channel_names(raw: dict[str, Any]) -> list[str]:
     """Collect TV and digital channel names from a Sahadan broadcast."""
     names: list[str] = []
@@ -150,11 +173,13 @@ def filter_broadcasts(raw_broadcasts: list[dict[str, Any]]) -> list[dict[str, An
         if not entities:
             continue
         home, away = _sides(name)
+        utc_stamp, istanbul_stamp = sahadan_utc_to_istanbul(item.get("date_time_utc"))
         kept.append(
             {
                 "id": str(match.get("uuid") or match.get("mid") or name),
                 "source_match_id": match.get("id"),
-                "starts_at_utc": item.get("date_time_utc"),
+                "starts_at_utc": utc_stamp,
+                "starts_at_istanbul": istanbul_stamp,
                 "title": name,
                 "home": home,
                 "away": away,

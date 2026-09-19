@@ -34,8 +34,9 @@ def build_document(
         "event_count": len(events),
         "events": events,
         "note": (
-            "starts_at_utc is Sahadan's date_time_utc field, shown as-is on "
-            "their TV page (treated as the kickoff they publish, not converted)."
+            "starts_at_utc is Sahadan date_time_utc (UTC). "
+            "starts_at_istanbul is that instant in Europe/Istanbul, matching "
+            "what sahadan.com shows in Turkey."
         ),
     }
 
