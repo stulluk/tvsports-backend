@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  publisher:
+    build: .
+    image: tvsports-backend:latest
+    restart: unless-stopped
+    environment:
+      TZ: Europe/Istanbul
+    volumes:
+      - tvsports_json:/srv
+
+  caddy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    depends_on:
+      - publisher
+    ports:
+      - "${CADDY_HTTP_BIND:-80}:80"
+      - "${CADDY_HTTPS_BIND:-443}:443"
+    environment:
+      TVSPORTS_HOSTNAME: ${TVSPORTS_HOSTNAME:-localhost}
+      CADDY_ACME_EMAIL: ${CADDY_ACME_EMAIL:-stulluk@gmail.com}
+    volumes:
+      - tvsports_json:/srv:ro
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  tvsports_json:
+  caddy_data:
+  caddy_config:

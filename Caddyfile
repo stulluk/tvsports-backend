@@ -1,0 +1,30 @@
+{
+	email {$CADDY_ACME_EMAIL:stulluk@gmail.com}
+}
+
+{$TVSPORTS_HOSTNAME:localhost} {
+	encode gzip
+	header {
+		Access-Control-Allow-Origin *
+		Access-Control-Allow-Methods "GET, OPTIONS"
+		X-Content-Type-Options nosniff
+	}
+
+	@health path /health /health.json /v1/health.json
+	handle @health {
+		root * /srv
+		rewrite * /health.json
+		file_server
+	}
+
+	@schedule path / /schedule.json /v1/schedule.json
+	handle @schedule {
+		root * /srv
+		rewrite * /schedule.json
+		file_server
+	}
+
+	handle {
+		respond "not found" 404
+	}
+}

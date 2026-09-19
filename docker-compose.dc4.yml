@@ -1,0 +1,18 @@
+# dc4: ntfy-caddy already owns 80/443. Serve HTTP inside ntfy_default
+# so ntfy-caddy can reverse_proxy to container tvsports-caddy:80.
+services:
+  caddy:
+    container_name: tvsports-caddy
+    ports: []
+    networks:
+      - default
+      - ntfy_default
+    volumes:
+      - tvsports_json:/srv:ro
+      - ./Caddyfile.http:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+networks:
+  ntfy_default:
+    external: true

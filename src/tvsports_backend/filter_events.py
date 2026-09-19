@@ -1,0 +1,168 @@
+"""Select only the broadcasts the TVsports app should show."""
+
+from __future__ import annotations
+
+import re
+from typing import Any
+
+SPORT_FOOTBALL = 1
+SPORT_BASKETBALL = 2
+
+ENTITY_FENER_FOOTBALL = "fenerbahce_football"
+ENTITY_FENER_BASKETBALL = "fenerbahce_basketball"
+ENTITY_GS = "galatasaray"
+ENTITY_BJK = "besiktas"
+ENTITY_TS = "trabzonspor"
+ENTITY_REAL = "real_madrid"
+ENTITY_BARCA = "barcelona"
+ENTITY_F1 = "formula1"
+
+WOMEN_MARK = re.compile(r"\(k\)", re.IGNORECASE)
+YOUTH_MARK = re.compile(r"\b(u1[5-9]|u2[0-3]|genç|genc|koleji)\b", re.IGNORECASE)
+F1_KEEP = re.compile(
+    r"sıralama|siralama|qualif|quali|sprint|yarış|yaris|\brace\b",
+    re.IGNORECASE,
+)
+F1_DROP = re.compile(
+    r"antrenman|practice|\bfp[1-3]\b|serbest|free practice",
+    re.IGNORECASE,
+)
+F4_MARK = re.compile(r"formula\s*4|\bf4\b", re.IGNORECASE)
+F1_MARK = re.compile(r"formula\s*1|\bf1\b", re.IGNORECASE)
+
+
+def _norm(text: str) -> str:
+    """Return a lowercase ASCII-ish form for team matching."""
+    table = str.maketrans(
+        {
+            "ç": "c",
+            "ğ": "g",
+            "ı": "i",
+            "ö": "o",
+            "ş": "s",
+            "ü": "u",
+            "Ç": "c",
+            "Ğ": "g",
+            "İ": "i",
+            "Ö": "o",
+            "Ş": "s",
+            "Ü": "u",
+        }
+    )
+    return text.translate(table).lower()
+
+
+def _sides(match_name: str) -> tuple[str, str]:
+    """Split 'Home - Away' and return both sides (empty away if no dash)."""
+    parts = [part.strip() for part in match_name.split(" - ", 1)]
+    if len(parts) == 1:
+        return parts[0], ""
+    return parts[0], parts[1]
+
+
+def _is_mens_senior_football(match_name: str) -> bool:
+    """Return True when the listing is men's first-team football."""
+    if WOMEN_MARK.search(match_name):
+        return False
+    if YOUTH_MARK.search(match_name):
+        return False
+    return True
+
+
+def _mentions(side: str, *needles: str) -> bool:
+    """Return True if any needle appears as a team token on one side."""
+    nside = _norm(side)
+    return any(needle in nside for needle in needles)
+
+
+def is_formula1_broadcast(match_name: str, sport_name: str) -> bool:
+    """Return True for Formula 1 quali / sprint / race listings only."""
+    blob = f"{match_name} {sport_name}"
+    if F4_MARK.search(blob):
+        return False
+    if not F1_MARK.search(blob):
+        return False
+    if F1_DROP.search(match_name):
+        return False
+    return bool(F1_KEEP.search(match_name) or F1_KEEP.search(sport_name))
+
+
+def classify_entities(match_name: str, sport: int, sport_name: str) -> list[str]:
+    """Return entity ids that this broadcast belongs to."""
+    home, away = _sides(match_name)
+    entities: list[str] = []
+
+    if is_formula1_broadcast(match_name, sport_name):
+        entities.append(ENTITY_F1)
+        return entities
+
+    if sport == SPORT_FOOTBALL and _is_mens_senior_football(match_name):
+        for side in (home, away, match_name):
+            if _mentions(side, "fenerbahce") and not _mentions(side, "tarfin"):
+                entities.append(ENTITY_FENER_FOOTBALL)
+                break
+        for side in (home, away):
+            if _mentions(side, "galatasaray") and not _mentions(side, "mct"):
+                entities.append(ENTITY_GS)
+            if _mentions(side, "besiktas"):
+                entities.append(ENTITY_BJK)
+            if _mentions(side, "trabzonspor"):
+                entities.append(ENTITY_TS)
+            if _mentions(side, "real madrid"):
+                entities.append(ENTITY_REAL)
+            if _mentions(side, "barcelona"):
+                entities.append(ENTITY_BARCA)
+
+    if sport == SPORT_BASKETBALL:
+        if _mentions(match_name, "fenerbahce"):
+            entities.append(ENTITY_FENER_BASKETBALL)
+
+    # Preserve order, drop duplicates.
+    seen: set[str] = set()
+    unique: list[str] = []
+    for item in entities:
+        if item not in seen:
+            seen.add(item)
+            unique.append(item)
+    return unique
+
+
+def channel_names(raw: dict[str, Any]) -> list[str]:
+    """Collect TV and digital channel names from a Sahadan broadcast."""
+    names: list[str] = []
+    for key in ("channels", "digital_channels"):
+        for item in raw.get(key) or []:
+            name = (item or {}).get("name")
+            if name and name not in names:
+                names.append(name)
+    return names
+
+
+def filter_broadcasts(raw_broadcasts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep broadcasts that match at least one followed entity."""
+    kept: list[dict[str, Any]] = []
+    for item in raw_broadcasts:
+        match = item.get("match") or {}
+        name = match.get("name") or ""
+        sport = int(match.get("sport") or 0)
+        sport_name = match.get("sport_name") or ""
+        entities = classify_entities(name, sport, sport_name)
+        if not entities:
+            continue
+        home, away = _sides(name)
+        kept.append(
+            {
+                "id": str(match.get("uuid") or match.get("mid") or name),
+                "source_match_id": match.get("id"),
+                "starts_at_utc": item.get("date_time_utc"),
+                "title": name,
+                "home": home,
+                "away": away,
+                "sport": sport_name,
+                "sport_id": sport,
+                "channels": channel_names(item),
+                "entity_ids": entities,
+            }
+        )
+    kept.sort(key=lambda row: (row.get("starts_at_utc") or "", row.get("title") or ""))
+    return kept

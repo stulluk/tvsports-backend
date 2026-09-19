@@ -1,0 +1,38 @@
+# Standalone stack for dc4 (docker-compose v1). No host 80/443 bind.
+version: "3.8"
+
+services:
+  publisher:
+    build: .
+    image: tvsports-backend:latest
+    restart: unless-stopped
+    environment:
+      TZ: Europe/Istanbul
+    volumes:
+      - tvsports_json:/srv
+
+  caddy:
+    image: caddy:2.8-alpine
+    container_name: tvsports-caddy
+    restart: unless-stopped
+    depends_on:
+      - publisher
+    expose:
+      - "80"
+    networks:
+      - default
+      - ntfy_default
+    volumes:
+      - tvsports_json:/srv:ro
+      - ./Caddyfile.http:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+networks:
+  ntfy_default:
+    external: true
+
+volumes:
+  tvsports_json:
+  caddy_data:
+  caddy_config:

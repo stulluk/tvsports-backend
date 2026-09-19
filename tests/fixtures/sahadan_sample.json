@@ -1,0 +1,3280 @@
+[
+  {
+    "date_time_utc": "2026-09-19 19:30:00",
+    "match": {
+      "id": 5008827,
+      "mid": "d7b3ec53-2c7a-6930-ced3-c67bb00a4cc6",
+      "uuid": "3v17tzdlpe7eqq6sue1scm39w",
+      "sport": 1,
+      "bookmaker_match_id": "3139375",
+      "status": 1,
+      "name": "Sporting CP - Arouca",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 19:00:00",
+    "match": {
+      "id": 4998091,
+      "mid": "d4070f96-64ca-fdb0-5a38-0a93533cb3b1",
+      "uuid": "7kyrc4nfqqhhpuy9qmwezpp1w",
+      "sport": 1,
+      "bookmaker_match_id": "3144493",
+      "status": 1,
+      "name": "Sevilla - Barcelona",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 19:00:00",
+    "match": {
+      "id": 4885907,
+      "mid": "d18eba79-03a0-b4ef-79ae-23d0b6e09d7e",
+      "uuid": "1jg7vocf8ybr1lz2kqfo4g2s4",
+      "sport": 1,
+      "bookmaker_match_id": "3145167",
+      "status": 1,
+      "name": "Atl. Mineiro - Chapecoense",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:45:00",
+    "match": {
+      "id": 4971893,
+      "mid": "32214142-49e7-9720-1bcc-9c13d3a2c20c",
+      "uuid": "9nypgy3n2pdxnscy58h8ce3o4",
+      "sport": 1,
+      "bookmaker_match_id": "3139332",
+      "status": 1,
+      "name": "Lyon - Rennes",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:45:00",
+    "match": {
+      "id": 4971892,
+      "mid": "fdce50b9-7b23-86db-6277-bd2e6c7dc17f",
+      "uuid": "9nmq8ma0fzbikdvt1rcebbs44",
+      "sport": 1,
+      "bookmaker_match_id": "3139381",
+      "status": 1,
+      "name": "Le Mans - Lorient",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:45:00",
+    "match": {
+      "id": 4971890,
+      "mid": "cf2e1152-e131-8201-eb19-2a7de05dd311",
+      "uuid": "9mygsfuqx3o88uiyafeo5x6vo",
+      "sport": 1,
+      "bookmaker_match_id": "3140610",
+      "status": 1,
+      "name": "Angers - Troyes",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 5"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:45:00",
+    "match": {
+      "id": 4971898,
+      "mid": "cf8dc6f9-eefd-a9e4-a1d5-07be5674243c",
+      "uuid": "9pmsyuaf57hm29pyabiyshkic",
+      "sport": 1,
+      "bookmaker_match_id": "3140642",
+      "status": 1,
+      "name": "Toulouse - Le Havre",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 4"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:45:00",
+    "match": {
+      "id": 4969466,
+      "mid": "698aa2b6-1de6-a6ba-ada6-081a8a2f1c8f",
+      "uuid": "794awssfw99sxovwu9ppsr5sk",
+      "sport": 1,
+      "bookmaker_match_id": "3139309",
+      "status": 1,
+      "name": "Venezia - Lazio",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:30:00",
+    "match": {
+      "id": 5006273,
+      "mid": "367575d2-5f50-3cfb-83f1-17b280b0f6b0",
+      "uuid": "dj76qz5erwmr9km9u8q6cqck4",
+      "sport": 1,
+      "bookmaker_match_id": "3140427",
+      "status": 1,
+      "name": "D. Dresden - Hertha Berlin",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:00:00",
+    "match": {
+      "id": 4972219,
+      "mid": "4811e7b9-c3ae-1e5d-a970-55779c71762d",
+      "uuid": "3mhj71bt7ihz5jur0y1czoljo",
+      "sport": 1,
+      "bookmaker_match_id": "3140369",
+      "status": 1,
+      "name": "Metz - St Etienne",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 18:00:00",
+    "match": {
+      "id": 4970741,
+      "mid": "12aca77c-df62-9f6f-f21c-b7cdde8994b6",
+      "uuid": "agpkzwt2ccxs7d8jy138p3huc",
+      "sport": 1,
+      "bookmaker_match_id": "3139876",
+      "status": 1,
+      "name": "Ajax - Excelsior",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:30:00",
+    "match": {
+      "mid": "20c855b3-99f6-d2e4-29f9-625f4983071c",
+      "uuid": "c7igczhs5ma0klylrgbddop3o",
+      "sport": 2,
+      "bookmaker_match_id": "3242922",
+      "status": 1,
+      "name": "Promitheas - Rasta Vechta",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Basketball Champions League YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:30:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler EHF Avrupa Kupası / Aon Fivers - Giresunspor",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "id": 5033244,
+      "mid": "b1cb13fa-e67e-a66b-ce41-8f9fde37d906",
+      "uuid": "cid6senvy4thpyrx4c74q0lck",
+      "sport": 1,
+      "bookmaker_match_id": "3145301",
+      "status": 1,
+      "name": "Başakşehir - Gençlerbirliği",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "mid": "17aa7586-c81c-1c08-eb6d-134f008462a7",
+      "uuid": "74599882f3tu4c0s1frzjz2fo",
+      "sport": 2,
+      "bookmaker_match_id": "3227415",
+      "status": 1,
+      "name": "Olympiakos - Real Madrid",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "id": 5039549,
+      "mid": "bbbc58c4-49c6-63d0-d996-00563b8ca19f",
+      "uuid": "coc2fk0qro4ools50x3tdyj2s",
+      "sport": 1,
+      "bookmaker_match_id": "3141168",
+      "status": 1,
+      "name": "Batman Petrolspor - Bursaspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "beIN SPORTS MAX 1"
+      },
+      {
+        "name": "TRT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "id": 5039547,
+      "mid": "0295d011-9724-5df2-cfc1-60dd2d7ef4b0",
+      "uuid": "cnourg3sn3wmw8vgwlvdjppuc",
+      "sport": 1,
+      "bookmaker_match_id": "3141043",
+      "status": 1,
+      "name": "Esenler Erokspor - F. Karagümrük",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT Avaz"
+      },
+      {
+        "name": "beIN SPORTS MAX 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "id": 5033242,
+      "mid": "4467bfa7-0163-8504-711a-6f933805fc2b",
+      "uuid": "chqb1auleskzta4x73zkpa978",
+      "sport": 1,
+      "bookmaker_match_id": "3144759",
+      "status": 1,
+      "name": "Trabzonspor - Galatasaray",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "uuid": "42908892-0cfb-2f20-4614-4c8548578fbf",
+      "sport": 3,
+      "status": 1,
+      "name": "T. Tirante - Mert Alkaya",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Cesson - Provence Aix ",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 17:00:00",
+    "match": {
+      "mid": "72d90d4f-100a-5302-43d1-f660d13f8cc5",
+      "uuid": "v695qt2s2e644ekcv3k5dvkk",
+      "sport": 2,
+      "bookmaker_match_id": "3139957",
+      "status": 1,
+      "name": "Wings (K) - Mercury (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:30:00",
+    "match": {
+      "id": 4998086,
+      "mid": "1ed1cfe0-f2d3-e8a4-2ac2-a60dba70bedb",
+      "uuid": "7jdeixosiwffz5qnfi4pspudw",
+      "sport": 1,
+      "bookmaker_match_id": "3144486",
+      "status": 1,
+      "name": "Celta Vigo - R. Santander",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:30:00",
+    "match": {
+      "id": 4978706,
+      "mid": "38f95e37-3521-266c-c987-4bf7d014b5cd",
+      "uuid": "4cqqn9ika412c1oni7qp3okr8",
+      "sport": 1,
+      "bookmaker_match_id": "3140074",
+      "status": 1,
+      "name": "Not. Forest - Coventry",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:30:00",
+    "match": {
+      "id": 5005944,
+      "mid": "0d1226e1-0e85-d99a-d974-fe7b4e2551d1",
+      "uuid": "5c2k4if8cxazt3qck11s8dc0k",
+      "sport": 1,
+      "bookmaker_match_id": "3140469",
+      "status": 1,
+      "name": "Stuttgart - B. Dortmund",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "mid": "fa5cc6ff-d867-af82-42b4-264f765bb0c9",
+      "uuid": "fa5cc6ff-d867-af82-42b4-264f765bb0c9",
+      "sport": 4,
+      "bookmaker_match_id": "3241743",
+      "status": 1,
+      "name": "Almanya - Bulgaristan ",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT Spor Yıldız"
+      },
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "id": 4969464,
+      "mid": "d1f2a899-1631-5e9b-da4d-a50a9b95e954",
+      "uuid": "78i7x3bonxhac2f8kxwso6b6c",
+      "sport": 1,
+      "bookmaker_match_id": "3139686",
+      "status": 1,
+      "name": "Roma - Inter",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "id": 5044603,
+      "mid": "db984871-9bcb-ebfc-cd4f-77b79c50ab0b",
+      "uuid": "7iu67e29s41bg0qrc7r7ps9w4",
+      "sport": 1,
+      "bookmaker_match_id": "3144382",
+      "status": 1,
+      "name": "Elazığspor - Aliağa FK",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Yaay"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "id": 5044328,
+      "mid": "45720a44-03ea-b705-c070-d6276f3ea75a",
+      "uuid": "488uyo0a2qpjd2g6az3vcpvys",
+      "sport": 1,
+      "bookmaker_match_id": "3145002",
+      "status": 1,
+      "name": "Ankaragücü - Serik Spor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Podravka Vegeta - Metz",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 16:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Ljubljana - Esbjerg",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:15:00",
+    "match": {
+      "id": 5070724,
+      "mid": "6827c62b-01ba-7261-369f-f0c4149a3df0",
+      "uuid": "dlmxcybociq1ze4d9eqsvo6j8",
+      "sport": 1,
+      "bookmaker_match_id": "3139574",
+      "status": 1,
+      "name": "Sampdoria - Catanzaro",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:15:00",
+    "match": {
+      "id": 4971897,
+      "mid": "50d4e7cb-59f8-1e74-f81f-aa4ba1bdabdb",
+      "uuid": "9papviydegjg4ef08tfjbvllg",
+      "sport": 1,
+      "bookmaker_match_id": "3139939",
+      "status": 1,
+      "name": "Paris FC - Strasbourg",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:05:00",
+    "match": {
+      "sport": 10,
+      "name": "İtalya Formula 4 - Misano - Yarış 2",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:00:00",
+    "match": {
+      "mid": "2edeb1b7-e786-a77a-5e3e-a352e4824173",
+      "uuid": "c6xou3twx7kmetshu9sl10yz8",
+      "sport": 2,
+      "bookmaker_match_id": "3243113",
+      "status": 1,
+      "name": "BC Dziki - Breogan",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Basketball Champions League YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:00:00",
+    "match": {
+      "uuid": "a8b122e8-5199-dda3-5828-10f584538146",
+      "sport": 3,
+      "status": 1,
+      "name": "F. Cerundolo - Yankı Erel",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:00:00",
+    "match": {
+      "uuid": "7d689aea-76c9-4c7a-94e1-4543eb832f2a",
+      "sport": 3,
+      "status": 1,
+      "name": "Arjantin - Türkiye",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 15:00:00",
+    "match": {
+      "mid": "59514827-8316-0d1f-8afb-2b034bf83e64",
+      "uuid": "b4tsxdy4cax1uw67qb9b6c4yc",
+      "sport": 2,
+      "bookmaker_match_id": "3137103",
+      "status": 1,
+      "name": "Kahramanmaraş - TED Ankara",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:30:00",
+    "match": {
+      "mid": "9fa68e4d-ae7f-eaa9-3e97-250d9fb15e67",
+      "uuid": "3jk27irzvrg28by51b61af21g",
+      "sport": 2,
+      "status": 1,
+      "name": "Tofaş - Galatasaray MCT T.",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Tofaş Spor Kulübü YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:30:00",
+    "match": {
+      "id": 5032698,
+      "mid": "07705f00-5ece-3829-ea39-8f9f0246922f",
+      "uuid": "aguels1ta6kcydxix6gcitvdg",
+      "sport": 1,
+      "bookmaker_match_id": "3140532",
+      "status": 1,
+      "name": "Saarbrücken - S. Grossaspach",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:15:00",
+    "match": {
+      "id": 4998084,
+      "mid": "d50d15f4-3c9d-72c0-c6da-cfabfdb2c434",
+      "uuid": "7iqmutnco5rawtszfkqkj8yz8",
+      "sport": 1,
+      "bookmaker_match_id": "3144327",
+      "status": 1,
+      "name": "Ath. Bilbao - Alaves",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 4978705,
+      "mid": "304eb0e0-3eeb-e7ab-0a7c-b133ac09fe6e",
+      "uuid": "4cegp76qyw1gbmr5g6ay3ff9w",
+      "sport": 1,
+      "bookmaker_match_id": "3140104",
+      "status": 1,
+      "name": "Newcastle - Hull City",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 4"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 4978700,
+      "mid": "64ac8358-d93b-1c1e-cd1a-0b39acfd4bbd",
+      "uuid": "4aork3roy705vtmxjs4ichhck",
+      "sport": 1,
+      "bookmaker_match_id": "3139852",
+      "status": 1,
+      "name": "Brighton - Arsenal",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 5033249,
+      "mid": "de4d77c7-f541-84ff-565d-bd438bf62224",
+      "uuid": "cjxu8u3pt1koim3dig3pvv09g",
+      "sport": 1,
+      "bookmaker_match_id": "3144761",
+      "status": 1,
+      "name": "Kocaelispor - Gaziantep FK",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "mid": "193c690e-d0fa-111b-dd2e-78d510999cd3",
+      "uuid": "8ftftwofpg71t5rcwbhdgn9xw",
+      "sport": 2,
+      "bookmaker_match_id": "3227417",
+      "status": 1,
+      "name": "Fenerbahçe Tarfin - Dubai",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 5039542,
+      "mid": "858e41ae-c432-a76b-da6d-9142ee458316",
+      "uuid": "cm0ub2k0xkggv683t8gbvv85w",
+      "sport": 1,
+      "bookmaker_match_id": "3140868",
+      "status": 1,
+      "name": "Keçiörengücü - Sivasspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "beIN SPORTS HABER"
+      },
+      {
+        "name": "TRT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 5039546,
+      "mid": "2c6ee992-7720-d806-7e72-a25a86f15018",
+      "uuid": "cncp6joxtw9pklpowyuckctuc",
+      "sport": 1,
+      "bookmaker_match_id": "3139804",
+      "status": 1,
+      "name": "Sarıyer - Boluspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT Türk"
+      },
+      {
+        "name": "beIN SPORTS MAX 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 5033247,
+      "mid": "cdf3ff08-67bc-648c-0223-6e27298d8f63",
+      "uuid": "cjb4iy9yti4b15ka3395yxjbo",
+      "sport": 1,
+      "bookmaker_match_id": "3145086",
+      "status": 1,
+      "name": "Çorum FK - Alanyaspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS MAX 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Süper Ligi /  Armada Praxis Yalıkavak Sk. - Yozgat Gençlik Sk.",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kaıdnlar Şampiyonlar Ligi / Sola HK - Ferencvaros",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Borussia Dortmund - CSM Bucuresti",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "id": 4978701,
+      "mid": "f0777867-6a13-94d7-b6c5-1684d91b118b",
+      "uuid": "4b13m8wmzbe553745oaid4u1g",
+      "sport": 1,
+      "bookmaker_match_id": "3140834",
+      "status": 1,
+      "name": "Everton - Ipswich Town",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 5"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 14:00:00",
+    "match": {
+      "mid": "b1fe968b-311d-2d24-23ad-95ff76ba76f2",
+      "uuid": "b6fdfu461vrtoro4bg2xftlp0",
+      "sport": 2,
+      "bookmaker_match_id": "3136654",
+      "status": 1,
+      "name": "Gaziantep Basket - Final Spor",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "HT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:30:00",
+    "match": {
+      "sport": 44,
+      "name": "Sail GP Cenevre - 1. Gün",
+      "sport_name": "Yelken"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:30:00",
+    "match": {
+      "sport": 10,
+      "name": "Ferrari Challenge Birleşik Krallık - Yarış 1",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:30:00",
+    "match": {
+      "id": 5005946,
+      "mid": "8f1cb40d-e9c5-5a28-52f7-ba5002d45416",
+      "uuid": "5cnwer3yc6rb1v2v0zmudft3o",
+      "sport": 1,
+      "bookmaker_match_id": "3140359",
+      "status": 1,
+      "name": "E. Frankfurt - Freiburg",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:30:00",
+    "match": {
+      "id": 5005948,
+      "mid": "6cae3d42-508b-1362-a984-e472a3459365",
+      "uuid": "5d95ri19l50e8cjkiaqtdb384",
+      "sport": 1,
+      "bookmaker_match_id": "3140593",
+      "status": 1,
+      "name": "Hamburg - Köln",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:30:00",
+    "match": {
+      "id": 5005949,
+      "mid": "a8f544b2-d224-ecc3-b67f-2eb29ccc8139",
+      "uuid": "5djx63598p1l1rei5evfr9h5g",
+      "sport": 1,
+      "bookmaker_match_id": "3139724",
+      "status": 1,
+      "name": "Werder Bremen - Augsburg",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 5070723,
+      "mid": "ae5b9bde-f18e-64ba-5748-7d42f010f16f",
+      "uuid": "dlcafde4htsv4h42pv5xhyy38",
+      "sport": 1,
+      "bookmaker_match_id": "3140036",
+      "status": 1,
+      "name": "Palermo - Padova",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "mid": "6a85d6ca-56b8-dcef-e15f-5a165f10d585",
+      "uuid": "6a85d6ca-56b8-dcef-e15f-5a165f10d585",
+      "sport": 4,
+      "bookmaker_match_id": "3241742",
+      "status": 1,
+      "name": "Polonya  - Letonya",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Süper Ligi / Göztepe Sk. - Üsküdar Bld. Sk.",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 5134289,
+      "mid": "05f97acd-f116-6616-bdb5-3736973a650b",
+      "uuid": "mg720vepc9gcmey48gfxu2ok",
+      "sport": 1,
+      "status": 1,
+      "name": "Beşiktaş (K) - Fenerbahçe (K)",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "TFF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 5047923,
+      "mid": "70d6f1fa-4616-3298-1730-1f0763125009",
+      "uuid": "69sves1jft3ea50k3whabptsk",
+      "sport": 1,
+      "bookmaker_match_id": "3202913",
+      "status": 1,
+      "name": "Bigaspor - Eskişehirspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 4969457,
+      "mid": "e0f55519-2d47-76ed-76af-ada47566e60c",
+      "uuid": "76d4ypscd3t7afdzxfmg5czys",
+      "sport": 1,
+      "bookmaker_match_id": "3140098",
+      "status": 1,
+      "name": "Bologna - Torino",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 5047929,
+      "mid": "eb111f0d-b887-e5d5-3e95-58f2a85bc132",
+      "uuid": "6bvbo5hsq503u884qf5d2ctg4",
+      "sport": 1,
+      "bookmaker_match_id": "3202902",
+      "status": 1,
+      "name": "Balıkesirspor - Uşakspor A.Ş.",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "id": 5044607,
+      "mid": "2790b7b7-a3d8-765e-28fe-41d45f9d5349",
+      "uuid": "7k73sq4ksj3rc4mz53l2yibro",
+      "sport": 1,
+      "bookmaker_match_id": "3144458",
+      "status": 1,
+      "name": "Arnavutköy Bld. - Çorluspor 1947 ",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 13:00:00",
+    "match": {
+      "sport": 11,
+      "name": "MotoGP - Avusturya / Sprint",
+      "sport_name": "MotoGp"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:45:00",
+    "match": {
+      "sport": 10,
+      "name": "GT Europe Zandvoort - Yarış 1",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:30:00",
+    "match": {
+      "id": 5048231,
+      "mid": "3c154a33-2c87-11a3-f9fe-d2462878824d",
+      "uuid": "6kbscmd31bsfnhiuhx74d1w5w",
+      "sport": 1,
+      "status": 1,
+      "name": "Osmaniyespor FK - Yeşilyurt SK",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:30:00",
+    "match": {
+      "mid": "23ec549f-64de-b035-1267-bebd4a257b66",
+      "uuid": "b6ykzovyx417w7865hq45mqs4",
+      "sport": 2,
+      "bookmaker_match_id": "3137069",
+      "status": 1,
+      "name": "iLab Basketbol - CO Basket",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:00:00",
+    "match": {
+      "mid": "d18590cf-160f-5e47-e7fd-9b858117d8cd",
+      "uuid": "558vi4h4wjbweq6dklk1tlmhg",
+      "sport": 2,
+      "status": 2,
+      "period": "First Quarter",
+      "name": "Trabzonspor - Bursaspor",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Tofaş Spor Kulübü YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:00:00",
+    "match": {
+      "id": 5032690,
+      "mid": "a6015dd7-27fc-863c-340f-e2418ef94ee0",
+      "uuid": "ae280pttyofqutiz4cikwknx0",
+      "sport": 1,
+      "bookmaker_match_id": "3140526",
+      "status": 2,
+      "second": 720,
+      "name": "A. Aachen - F. Düsseldorf",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Süper Ligi / Odunpazarı Bld. Sk. - Manisa Bşb. Sk.",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Süper Ligi / Bursa Bşb. Sk. - Ortahisar Bld. Sk.",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 12:00:00",
+    "match": {
+      "id": 4998090,
+      "mid": "4066b466-7091-856a-ef68-1b3fd62ca321",
+      "uuid": "7knavco2d0xyze03cdx6ty8t0",
+      "sport": 1,
+      "bookmaker_match_id": "3144399",
+      "status": 2,
+      "second": 960,
+      "name": "Osasuna - Rayo Vallecano",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:40:00",
+    "match": {
+      "sport": 10,
+      "name": "Moto2 - Avusturya / Sıralama Turları",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:30:00",
+    "match": {
+      "id": 4978707,
+      "mid": "71d9472f-0ac4-a017-7ee3-45699d6edfb2",
+      "uuid": "4d34tyqtozntqvmvslwkr58no",
+      "sport": 1,
+      "bookmaker_match_id": "3140386",
+      "status": 2,
+      "second": 2700,
+      "name": "Tottenham - Aston Villa",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:30:00",
+    "match": {
+      "id": 4987878,
+      "mid": "1aab2e25-f3db-e66d-e2ee-98664f5009c2",
+      "uuid": "18164mvo5mvorgrnccm0qz6l0",
+      "sport": 1,
+      "bookmaker_match_id": "3140226",
+      "status": 2,
+      "second": 2700,
+      "name": "Millwall - West Ham",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:30:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler EHF Avrupa Kupası / Sviesa - İstanbul Gençlik",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:00:00",
+    "match": {
+      "mid": "8ab24d39-dfcb-a917-bb45-4e783030d07d",
+      "uuid": "b8259kcm2i8v49wrghc9cg3kk",
+      "sport": 2,
+      "bookmaker_match_id": "3137290",
+      "status": 3,
+      "name": "MKE Ankaragücü - Mersin Spor",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:00:00",
+    "match": {
+      "mid": "1c09bdbf-c047-0334-0433-448ec3f61514",
+      "uuid": "b8le7uw95i8abyzcnke4ulq8k",
+      "sport": 2,
+      "bookmaker_match_id": "3136839",
+      "status": 2,
+      "period": "Third Quarter",
+      "name": "OGM Ormanspor - Göztepe Isonem",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "HT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:00:00",
+    "match": {
+      "id": 5134290,
+      "mid": "63db4b18-2413-c807-fa6e-7d7a19a9d772",
+      "uuid": "mrgzu1flfknl9r2q7dfsffv8",
+      "sport": 1,
+      "status": 2,
+      "second": 2820,
+      "name": "Yüksekovaspor (K) - Kayseri KFK (K)",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "TFF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 11:00:00",
+    "match": {
+      "id": 5006272,
+      "mid": "12cce697-acac-38b0-336c-c14310081262",
+      "uuid": "diuo40mjx9vb34vyvi7ivw1ec",
+      "sport": 1,
+      "bookmaker_match_id": "3140537",
+      "status": 2,
+      "second": 3420,
+      "name": "Karlsruher - Nürnberg",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 09:30:00",
+    "match": {
+      "sport": 44,
+      "name": "Boğaziçi Kupası 2026 Finali",
+      "sport_name": "Yelken"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT Spor Yıldız"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 09:15:00",
+    "match": {
+      "sport": 10,
+      "name": "İtalya Formula 4 - Misano - Yarış 1",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS MAX 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 08:10:00",
+    "match": {
+      "sport": 11,
+      "name": "MotoGP - Avusturya / 2. Serbest Antrenman ve Sıralama Turları",
+      "sport_name": "MotoGp"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 02:00:00",
+    "match": {
+      "mid": "5df9aebd-bfd7-1656-298a-e7c7bf0bc6b7",
+      "uuid": "uiwy8ig2bfrcbdvnl1kgubkk",
+      "sport": 2,
+      "bookmaker_match_id": "3139292",
+      "status": 3,
+      "name": "Valkyries (K) - Fire (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 00:50:00",
+    "match": {
+      "uuid": "e8401cdb-f53a-5684-41ce-b93d45f956c6",
+      "sport": 3,
+      "bookmaker_match_id": "3226128",
+      "status": 3,
+      "name": "L. Samsonova - P. Stearns",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 00:15:00",
+    "match": {
+      "id": 4886267,
+      "mid": "5b94021b-a5b3-8314-9e15-88375f5e89fc",
+      "uuid": "1vslgx2qfdwupw69u3liuy5g4",
+      "sport": 1,
+      "bookmaker_match_id": "3144696",
+      "status": 3,
+      "name": "Racing Club - Sarmiento",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-18 23:30:00",
+    "match": {
+      "mid": "f4a015b4-e371-3d0f-8bfe-0e0bca64792f",
+      "uuid": "twwlj57azhv0qkdhpm04vsic",
+      "sport": 2,
+      "bookmaker_match_id": "3136941",
+      "status": 3,
+      "name": "Minnesota (K) - Liberty (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-18 23:30:00",
+    "match": {
+      "mid": "9575d110-1f18-3cbe-7e36-ae0aa13a156f",
+      "uuid": "t9m0ujg33jgd5ihi6zcfw9as",
+      "sport": 2,
+      "bookmaker_match_id": "3136727",
+      "status": 3,
+      "name": "Tempo (K) - Fever (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-18 23:00:00",
+    "match": {
+      "uuid": "9d7c738d-2b47-b132-f04f-0367fb103d80",
+      "sport": 3,
+      "bookmaker_match_id": "3226126",
+      "status": 3,
+      "name": "C. Bucsa - I. Jovic",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 20:00:00",
+    "match": {
+      "id": 4886262,
+      "mid": "70e987ab-0dd1-3972-8d4b-2e7897b95920",
+      "uuid": "1takllek5tzp371pc2axty39w",
+      "sport": 1,
+      "bookmaker_match_id": "3144900",
+      "status": 1,
+      "name": "Rosario C. - Argentinos Jr.",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 20:00:00",
+    "match": {
+      "mid": "d0c6ecf5-de46-6d54-8cff-3904b6db55d9",
+      "uuid": "yc5rqpawla0en3ffbkvyg74k",
+      "sport": 2,
+      "status": 1,
+      "name": "Fever (K) - Mystics (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 19:30:00",
+    "match": {
+      "id": 5008825,
+      "mid": "8db3e3b6-9e98-faaf-153f-326a2e1d8673",
+      "uuid": "3uen8iys1d09y6kl32qz7ktn8",
+      "sport": 1,
+      "bookmaker_match_id": "3140258",
+      "status": 1,
+      "name": "Porto - Benfica",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 4"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 19:05:00",
+    "match": {
+      "mid": "57e07838-008b-d0e5-1212-03a7e403875a",
+      "uuid": "57e07838-008b-d0e5-1212-03a7e403875a",
+      "sport": 4,
+      "bookmaker_match_id": "3243233",
+      "status": 1,
+      "name": "İtalya - Danimarka",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 19:00:00",
+    "match": {
+      "id": 4998092,
+      "mid": "5a6203bd-3146-7124-c3ac-5fe17c7579cc",
+      "uuid": "7la6yuf9p9hw8nre121mkq1hw",
+      "sport": 1,
+      "bookmaker_match_id": "3144689",
+      "status": 1,
+      "name": "Valencia - R. Sociedad",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 19:00:00",
+    "match": {
+      "mid": "6421cc8b-4bed-1c74-19fc-35880bdd43fc",
+      "uuid": "xpysg5fucnpgokkfwconzdhw",
+      "sport": 2,
+      "status": 1,
+      "name": "Tempo (K) - Liberty (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 18:45:00",
+    "match": {
+      "id": 4971894,
+      "mid": "1c6ab3ed-d633-bae8-5664-aa5293397cf7",
+      "uuid": "9oap5rimzh2a51t262izd979w",
+      "sport": 1,
+      "bookmaker_match_id": "3144703",
+      "status": 1,
+      "name": "Marsilya - PSG",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 18:45:00",
+    "match": {
+      "id": 4969461,
+      "mid": "5662ebfe-ba3f-b676-56ef-4186addf1c83",
+      "uuid": "77l9geiwaiztbwyn4jqalw07o",
+      "sport": 1,
+      "bookmaker_match_id": "3145304",
+      "status": 1,
+      "name": "Milan - Lecce",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:45:00",
+    "match": {
+      "id": 4886259,
+      "mid": "b6d0eebf-4f5b-2f4f-d581-f46d9cc4297f",
+      "uuid": "1rrp04ydt1ahgykgayqyp1lw4",
+      "sport": 1,
+      "bookmaker_match_id": "3144625",
+      "status": 1,
+      "name": "San Lorenzo - Boca Juniors",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:30:00",
+    "match": {
+      "id": 5005951,
+      "mid": "305ad2a7-e4b2-3697-d144-bd069bef4ce9",
+      "uuid": "5e5a569z5ad977h03a2cp2fx0",
+      "sport": 1,
+      "bookmaker_match_id": "3145221",
+      "status": 1,
+      "name": "Paderborn - Hoffenheim",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "uuid": "4d3b58c4-555e-397a-12b3-361a00754871",
+      "sport": 3,
+      "status": 1,
+      "name": "T. Tirante - Yankı Erel",
+      "sport_name": "Tenis"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "id": 5039550,
+      "mid": "77a588ec-6d65-47d9-17dc-4519a51134d8",
+      "uuid": "comzlihylipy0mutrwijp1250",
+      "sport": 1,
+      "bookmaker_match_id": "3144966",
+      "status": 1,
+      "name": "Mardin 1969 Spor - Kayserispor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "beIN SPORTS MAX 1"
+      },
+      {
+        "name": "TRT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "id": 5039544,
+      "mid": "68636e84-3c39-cec5-4a8b-ec84c3c0fc18",
+      "uuid": "cmpf44h9dg860360bikldhes4",
+      "sport": 1,
+      "bookmaker_match_id": "3144509",
+      "status": 1,
+      "name": "Antalyaspor - Vanspor FK",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT Türk"
+      },
+      {
+        "name": "beIN SPORTS MAX 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "id": 5033246,
+      "mid": "3497a16f-330f-fef1-5201-44c4347605f2",
+      "uuid": "cizsw1hg6g8wzusyinxuvtudw",
+      "sport": 1,
+      "bookmaker_match_id": "3144094",
+      "status": 1,
+      "name": "Göztepe - Ç. Rizespor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "id": 5033245,
+      "mid": "eff2b2f0-822c-34d3-fc13-a7e705db277a",
+      "uuid": "ciogj2i9n0vuzikm94orqsyz8",
+      "sport": 1,
+      "bookmaker_match_id": "3144984",
+      "status": 1,
+      "name": "Amed SK - Beşiktaş",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "id": 5008826,
+      "mid": "c07ef3e5-1218-15b9-de49-0c25dfcdb331",
+      "uuid": "3upvqo6xoprq2yk8s4sogj310",
+      "sport": 1,
+      "bookmaker_match_id": "3139856",
+      "status": 1,
+      "name": "Santa Clara - Braga",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 5"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 17:00:00",
+    "match": {
+      "mid": "d376a720-6d79-7652-afdd-f2884ddab34f",
+      "uuid": "x257bfssp1gud2uglyfvsi6s",
+      "sport": 2,
+      "status": 1,
+      "name": "Connecticut (K) - Minnesota (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:30:00",
+    "match": {
+      "id": 4998087,
+      "mid": "0616bb91-ccd8-f194-dd22-336ddb8b55fc",
+      "uuid": "7jox9lda9iq9hg8127i4eakus",
+      "sport": 1,
+      "bookmaker_match_id": "3144089",
+      "status": 1,
+      "name": "Deportivo - Real Betis",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:30:00",
+    "match": {
+      "id": 4998093,
+      "mid": "f0626f71-b5cc-b77a-3a1e-bb9d2523d7bc",
+      "uuid": "7llpty4qgs2bsjfh846un8104",
+      "sport": 1,
+      "bookmaker_match_id": "3144137",
+      "status": 1,
+      "name": "Villarreal - Levante",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:00:00",
+    "match": {
+      "mid": "8a3cdc93-c1ce-0b6b-e383-a1f141d073fb",
+      "uuid": "8a3cdc93-c1ce-0b6b-e383-a1f141d073fb",
+      "sport": 4,
+      "bookmaker_match_id": "3243246",
+      "status": 1,
+      "name": "Fransa - Portekiz",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:00:00",
+    "match": {
+      "id": 4969460,
+      "mid": "41846901-7e59-d9d8-f5b8-6b8005ccae52",
+      "uuid": "77a9rnv901wm3mwfoq92d1rf8",
+      "sport": 1,
+      "bookmaker_match_id": "3145123",
+      "status": 1,
+      "name": "Juventus - Atalanta",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:00:00",
+    "match": {
+      "id": 5047622,
+      "mid": "b601166b-0b2e-23b8-9895-3ccb0f72eee0",
+      "uuid": "a4th18v03a4o5gjrina5502l0",
+      "sport": 1,
+      "status": 1,
+      "name": "Orduspor 1967 - Beykoz İshaklıspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 16:00:00",
+    "match": {
+      "id": 5047924,
+      "mid": "41b1b85e-4d38-3a70-29b7-28a4ca840bfd",
+      "uuid": "6a5ak8oly3gd75iv1e1o17bbo",
+      "sport": 1,
+      "status": 1,
+      "name": "Gaziemir GOG - Denizli İY",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:30:00",
+    "match": {
+      "id": 4978702,
+      "mid": "fd4cc8cb-b690-3abf-e3fd-bf4eebee12cd",
+      "uuid": "4bdh1k5miiggomnrfvy7egb2s",
+      "sport": 1,
+      "bookmaker_match_id": "3144374",
+      "status": 1,
+      "name": "Fulham - Man. United",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:30:00",
+    "match": {
+      "id": 5005950,
+      "mid": "5cf9fdbd-bdb3-97e8-f2d8-8e099212b193",
+      "uuid": "5dujam537ly5ng4253oa1hjis",
+      "sport": 1,
+      "bookmaker_match_id": "3144041",
+      "status": 1,
+      "name": "Schalke 04 - Elversberg",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:15:00",
+    "match": {
+      "id": 4971896,
+      "mid": "1d2087cd-5680-8b9a-82df-05a2d6a25861",
+      "uuid": "9oytk2paq2yja5mza50bec6j8",
+      "sport": 1,
+      "bookmaker_match_id": "3140425",
+      "status": 1,
+      "name": "Nice - Lille",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 4"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Montpellier - Hbc Nantes",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:00:00",
+    "match": {
+      "id": 4992395,
+      "mid": "fccfd1ec-15d4-28f6-8cf1-0357923cf3ef",
+      "uuid": "10zp82oo06vdscvpndwjzmyac",
+      "sport": 1,
+      "bookmaker_match_id": "3141104",
+      "status": 1,
+      "name": "Shakhtar - LNZ Cherkasy",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 15:00:00",
+    "match": {
+      "mid": "515e68fb-6175-36e3-8af8-5fe5a21e5cf9",
+      "uuid": "b5czaqnc8swiuflv8kkj2v190",
+      "sport": 2,
+      "status": 1,
+      "name": "Darüşşafaka - Balıkesir BŞB",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:30:00",
+    "match": {
+      "id": 5032693,
+      "mid": "577dceca-7221-165c-7386-b9c414f9be2a",
+      "uuid": "af3obbjhniab4221c6pcfrims",
+      "sport": 1,
+      "bookmaker_match_id": "3144842",
+      "status": 1,
+      "name": "Mannheim 07 - Preussen M.",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:20:00",
+    "match": {
+      "sport": 10,
+      "name": "İtalya Formula 4 - Misano - Yarış 4",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:15:00",
+    "match": {
+      "id": 4998085,
+      "mid": "27e08a93-adcc-bd4b-441a-03d360c38403",
+      "uuid": "7j22qz3t4ws54eotrjesr4jdg",
+      "sport": 1,
+      "bookmaker_match_id": "3145000",
+      "status": 1,
+      "name": "Atl. Madrid - Real Madrid",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 4885908,
+      "mid": "f05719bd-08af-80b1-ead0-4709994756ae",
+      "uuid": "1jyjiywoj2mqdie20k1reaot0",
+      "sport": 1,
+      "bookmaker_match_id": "3145278",
+      "status": 1,
+      "name": "Gremio P. - Palmeiras",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "mid": "5d904e5a-75a5-ec54-7fe6-2aeaf23741b1",
+      "uuid": "5d904e5a-75a5-ec54-7fe6-2aeaf23741b1",
+      "sport": 4,
+      "bookmaker_match_id": "3243382",
+      "status": 1,
+      "name": "Finlandiya - Yunanistan",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 5134292,
+      "mid": "afc4a2a9-6ea0-46a8-63d5-3a578dfc5745",
+      "uuid": "ngt4e1rk3pxqygbnwhqofeac",
+      "sport": 1,
+      "status": 1,
+      "name": "Fomget Gençlik (K) - Trabzonspor (K)",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "TFF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 5039548,
+      "mid": "f1c7beff-2767-ba49-fe03-52787d606922",
+      "uuid": "co16fs3bgn92mnnlumimt8650",
+      "sport": 1,
+      "bookmaker_match_id": "3144972",
+      "status": 1,
+      "name": "Manisa FK - İstanbulspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "beIN SPORTS MAX 2"
+      },
+      {
+        "name": "TRT Spor"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 5039543,
+      "mid": "61fdd85d-bfd8-b62a-b12b-0686a6503206",
+      "uuid": "cmd6gpd96u0xv7zpw0x8enklw",
+      "sport": 1,
+      "bookmaker_match_id": "3144925",
+      "status": 1,
+      "name": "Pendikspor - Bodrum FK",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "tabii spor 6"
+      },
+      {
+        "name": "beIN SPORTS MAX 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 5033250,
+      "mid": "700b81a9-c5c6-81d7-f502-680c02711f3c",
+      "uuid": "ck9d08o1wrut7snbkdo3ob8yc",
+      "sport": 1,
+      "bookmaker_match_id": "3144422",
+      "status": 1,
+      "name": "Erzurumspor FK - Samsunspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "id": 5033248,
+      "mid": "8211e063-3493-73a2-fc38-b21b6398592a",
+      "uuid": "cjmgsnh2mcm3fvksvmlyxu3h0",
+      "sport": 1,
+      "bookmaker_match_id": "3145066",
+      "status": 1,
+      "name": "Fenerbahçe - Eyüpspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "sport": 10,
+      "name": "Ferrari Challenge Birleşik Krallık - Yarış 2",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler Süper Ligi / Nilüfer Bld. - Beşiktaş",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler Süper Ligi / Güneysuspor - Bekoz Bld.",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Bistrita - Odense",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Buducnost - Brest Bretagne",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:30:00",
+    "match": {
+      "sport": 44,
+      "name": "Sail GP Cenevre - 2. Gün",
+      "sport_name": "Yelken"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:30:00",
+    "match": {
+      "id": 5005945,
+      "mid": "36cbd8b8-b2f5-e290-01a9-f9708fd65ee6",
+      "uuid": "5cddfdc32hk1grppa49fsuw44",
+      "sport": 1,
+      "bookmaker_match_id": "3144668",
+      "status": 1,
+      "name": "B. Leverkusen - Leipzig",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 5070719,
+      "mid": "0daeba0d-707e-bbfd-9734-fea268122181",
+      "uuid": "dk5kksuwx1she9g1dwbhfjbx0",
+      "sport": 1,
+      "bookmaker_match_id": "3145107",
+      "status": 1,
+      "name": "Hellas Verona - Vicenza",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "mid": "da6ba3ee-7e47-ecaf-fc37-1966911e7c68",
+      "uuid": "da6ba3ee-7e47-ecaf-fc37-1966911e7c68",
+      "sport": 4,
+      "bookmaker_match_id": "3241744",
+      "status": 1,
+      "name": "Ukrayna - Romanya",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 5044604,
+      "mid": "cf014225-4c16-b971-fcc9-31531777518e",
+      "uuid": "7j6j7kkwndl132y8tbe3pssus",
+      "sport": 1,
+      "status": 1,
+      "name": "Somaspor - Muş Spor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4971891,
+      "mid": "722fbd1c-a199-40ec-ab69-77d5e37f713e",
+      "uuid": "9najbfjmlwuv1rbgj8ihxfggk",
+      "sport": 1,
+      "bookmaker_match_id": "3139901",
+      "status": 1,
+      "name": "AJ Auxerre - Brest",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4978703,
+      "mid": "36ef0a6b-1ceb-c100-c38f-37e765d51140",
+      "uuid": "4bpw8slei74daupau2ykm94pg",
+      "sport": 1,
+      "bookmaker_match_id": "3139559",
+      "status": 1,
+      "name": "Leeds United - Crystal Palace",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 5"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4978698,
+      "mid": "30922ca2-fcf8-6cd5-ddd7-3d204d9c6f79",
+      "uuid": "4a02bpu58i6coz6znfsom036c",
+      "sport": 1,
+      "bookmaker_match_id": "3145223",
+      "status": 1,
+      "name": "Bournemouth - Liverpool",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 4"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4978704,
+      "mid": "c191f406-be27-c0cb-f584-64271c9ca0ce",
+      "uuid": "4c25rlhvkcbs10hrimy0g04d0",
+      "sport": 1,
+      "bookmaker_match_id": "3140211",
+      "status": 1,
+      "name": "Man. City - Sunderland",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4969459,
+      "mid": "fdaf6045-ad33-a88b-663b-abe961b31b4b",
+      "uuid": "76z53oht947dwan6em4jq23v8",
+      "sport": 1,
+      "bookmaker_match_id": "3144169",
+      "status": 1,
+      "name": "Frosinone - Como",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 4969463,
+      "mid": "2039ec53-aeed-dee4-7c36-c59f5b38ab10",
+      "uuid": "7877kjry5anh9aq2779qs7aqc",
+      "sport": 1,
+      "bookmaker_match_id": "3145027",
+      "status": 1,
+      "name": "Parma - Genoa",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "id": 5044333,
+      "mid": "134aea04-8f3c-6a20-dc2c-3f3e51f1cfdb",
+      "uuid": "49xhirglviyuvm5wf165k64us",
+      "sport": 1,
+      "status": 1,
+      "name": "Kütahyaspor - Erzincan Spor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 3"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 13:00:00",
+    "match": {
+      "mid": "af17214f-3103-149b-3adc-7d468aece33c",
+      "uuid": "b5w5diwt1hp6bls1qrxl03itw",
+      "sport": 2,
+      "status": 1,
+      "name": "FB Gelişim - Keçiören",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:30:00",
+    "match": {
+      "id": 4970746,
+      "mid": "29aafe62-83c0-551f-5b84-07a6e8479594",
+      "uuid": "aigjj9uah51aagbl4igvpj8d0",
+      "sport": 1,
+      "bookmaker_match_id": "3144586",
+      "status": 1,
+      "name": "Twente - PSV",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:30:00",
+    "match": {
+      "id": 5047925,
+      "mid": "ebe9e9ff-c964-41fa-8acf-4c7010d0ac66",
+      "uuid": "6ahjznjdqfqbz6aj08u03qpec",
+      "sport": 1,
+      "status": 1,
+      "name": "Etimesgut Spor  - Bucaspor 1928",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Yaay"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:15:00",
+    "match": {
+      "sport": 10,
+      "name": "GT Europe Zandvoort - Yarış 2",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN CONNECT"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "id": 4998089,
+      "mid": "5b934059-2c9b-b2e1-919d-372220f6247f",
+      "uuid": "7kbrrhdylwi77hb0f5lhor09g",
+      "sport": 1,
+      "bookmaker_match_id": "3145305",
+      "status": 1,
+      "name": "Getafe - Malaga",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "id": 5044332,
+      "mid": "56259fef-8ef9-a360-52b4-9379607fb745",
+      "uuid": "49lbvqvj161vug4uk8xcvbz84",
+      "sport": 1,
+      "status": 1,
+      "name": "K.Maraş İstiklal - Sakaryaspor",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Tivibu Spor 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "mid": "f50eb749-eb8e-b9dc-8998-e198633a954b",
+      "uuid": "b7hnpqe1sc1v23gem8agb9t04",
+      "sport": 2,
+      "status": 1,
+      "name": "Konya BBSK - Yalova Haremspor",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "HT Spor"
+      },
+      {
+        "name": "TBF YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / Storhamar - Györi Audi",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Kadınlar Şampiyonlar Ligi / NFH - Blomberg Lippe",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "ehf TV"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 12:00:00",
+    "match": {
+      "sport": 11,
+      "name": "MotoGP - Avusturya / Yarış",
+      "sport_name": "MotoGp"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 11:30:00",
+    "match": {
+      "id": 5032689,
+      "mid": "e0f40950-5d70-a54e-ffda-1584f8201d0c",
+      "uuid": "adpm56jjgatl39nc28x00hus4",
+      "sport": 1,
+      "bookmaker_match_id": "3144044",
+      "status": 1,
+      "name": "RW Essen - H. Rostock",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "Sıfır TV YouTube"
+      },
+      {
+        "name": "Sıfır TV"
+      },
+      {
+        "name": "mackolik"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 11:30:00",
+    "match": {
+      "id": 5006275,
+      "mid": "ddde478e-cbab-935b-a28c-d3e8ca8b27bf",
+      "uuid": "djw27eno9qbjeazusp9lntk44",
+      "sport": 1,
+      "bookmaker_match_id": "3144344",
+      "status": 1,
+      "name": "A. Bielefeld - Heidenheim",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 11:00:00",
+    "match": {
+      "id": 4977017,
+      "mid": "70e23b60-e03d-d824-5e7d-6354d719621f",
+      "uuid": "203meden1m5vl1824gdzr7t3o",
+      "sport": 1,
+      "bookmaker_match_id": "3145178",
+      "status": 1,
+      "name": "Celtic - Rangers",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 11:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler Süper Ligi / Eskişehir Mihalıççık - Trabzon BB",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 10:30:00",
+    "match": {
+      "id": 4969458,
+      "mid": "26238c9a-8f09-0cf8-079c-ddb5d4f54ad1",
+      "uuid": "76o7uj82256s7ewygbqb5mrkk",
+      "sport": 1,
+      "bookmaker_match_id": "3144666",
+      "status": 1,
+      "name": "Fiorentina - Napoli",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "S Sport 2"
+      },
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 10:15:00",
+    "match": {
+      "sport": 10,
+      "name": "Moto2 - Avusturya / Yarış",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 09:00:00",
+    "match": {
+      "sport": 10,
+      "name": "Moto3 - Avusturya / Yarış",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 08:10:00",
+    "match": {
+      "sport": 10,
+      "name": "İtalya Formula 4 - Misano - Yarış 3",
+      "sport_name": "WRC"
+    },
+    "channels": [
+      {
+        "name": "beIN SPORTS MAX 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 04:50:00",
+    "match": {
+      "sport": 22,
+      "name": "Bisiklet - Tour de France / l'Etape Türkiye",
+      "sport_name": "Bisiklet"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      },
+      {
+        "name": "S Sport"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 01:00:00",
+    "match": {
+      "mid": "e1375960-268e-717b-e34a-720963fbaa3d",
+      "uuid": "wg1nmhpj7utlgwbn6vcz7x1w",
+      "sport": 2,
+      "bookmaker_match_id": "3145440",
+      "status": 1,
+      "name": "Valkyries (K) - Storm (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 01:00:00",
+    "match": {
+      "sport": 60,
+      "name": "UFC 331 / Joshua Van - Alexandre Pantoja",
+      "sport_name": "Ufc"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 23:30:00",
+    "match": {
+      "sport": 62,
+      "name": "NASCAR / Bass Pro Shops Night Race",
+      "sport_name": "Nascar"
+    },
+    "channels": [
+      {
+        "name": "S Sport Plus"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 23:00:00",
+    "match": {
+      "mid": "29733ad6-7bf0-65ec-fb9d-89e04744c57f",
+      "uuid": "vtyabzf3txp4s6nvq0npkt90",
+      "sport": 2,
+      "bookmaker_match_id": "3139555",
+      "status": 1,
+      "name": "Dream (K) - Sky (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 22:00:00",
+    "match": {
+      "id": 4886266,
+      "mid": "6bcf1350-1ed5-f332-5c92-e6c8e1a7d27c",
+      "uuid": "1vbqa29e98oyvpqqmhy02jv2s",
+      "sport": 1,
+      "bookmaker_match_id": "3144892",
+      "status": 1,
+      "name": "River Plate - Huracan",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-19 21:30:00",
+    "match": {
+      "id": 4885911,
+      "mid": "cf392194-b264-7c96-ce4d-4ef0f138a25e",
+      "uuid": "1lorz1labkwf6nyvxrjwjel90",
+      "sport": 1,
+      "bookmaker_match_id": "3144769",
+      "status": 1,
+      "name": "Remo - Santos SP",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART 2"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-21 19:00:00",
+    "match": {
+      "mid": "1c74ca72-e6e8-520d-8972-3e9ebc5e8190",
+      "uuid": "1c74ca72-e6e8-520d-8972-3e9ebc5e8190",
+      "sport": 4,
+      "bookmaker_match_id": "3243216",
+      "status": 1,
+      "name": "Slovenya - Sırbistan ",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-21 14:00:00",
+    "match": {
+      "mid": "a1974651-4a3b-9719-6057-cab63b426db4",
+      "uuid": "a1974651-4a3b-9719-6057-cab63b426db4",
+      "sport": 4,
+      "bookmaker_match_id": "3243350",
+      "status": 1,
+      "name": "Belçika - Çekya",
+      "sport_name": "Voleybol"
+    },
+    "channels": [
+      {
+        "name": "European Volleyball YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-21 01:00:00",
+    "match": {
+      "mid": "051b2e05-5b5a-fccb-3729-96c718360ef4",
+      "uuid": "zn4l0xfuo9gpq7g5g5rv55hw",
+      "sport": 2,
+      "status": 1,
+      "name": "Aces (K) - Storm (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 23:00:00",
+    "match": {
+      "mid": "491b6792-3aa7-70d2-0021-db832a03c1ed",
+      "uuid": "z120h1re4ee335qckn0w33tg",
+      "sport": 2,
+      "status": 1,
+      "name": "Sparks (K) - Fire (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-20 22:30:00",
+    "match": {
+      "id": 4885909,
+      "mid": "0d701e99-9c7d-7200-7fbd-520b7bb713a8",
+      "uuid": "1khlbq4lg82nv4l075ej1i1p0",
+      "sport": 1,
+      "bookmaker_match_id": "3144319",
+      "status": 1,
+      "name": "Paranaense - Bahia BA",
+      "sport_name": "Futbol"
+    },
+    "channels": [
+      {
+        "name": "SPOR SMART"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-22 17:00:00",
+    "match": {
+      "mid": "0caa7bf0-f32b-45ed-1553-0605ccd69392",
+      "uuid": "dldg738b03tm0smr49nh84k4",
+      "sport": 2,
+      "status": 1,
+      "name": "Fenerbahçe Tarfin - Beşiktaş",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "tabii"
+      },
+      {
+        "name": "TRT 1"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-22 02:00:00",
+    "match": {
+      "mid": "18c5136a-761e-222a-5487-cf6772890af9",
+      "uuid": "10uxcop8477suhdtxfs78dpg4",
+      "sport": 2,
+      "status": 1,
+      "name": "Mercury (K) - Wings (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-22 00:00:00",
+    "match": {
+      "mid": "207aac5c-7703-d211-f72d-98f722fe9b7a",
+      "uuid": "108xz8vp7z9d0b1k6na4p2yvo",
+      "sport": 2,
+      "status": 1,
+      "name": "Liberty (K) - Dream (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 18:30:00",
+    "match": {
+      "mid": "e82f42be-7201-a103-a3d2-cbe460c13ab1",
+      "uuid": "bvbm1aqrp2m4ysefj2u0zof84",
+      "sport": 2,
+      "status": 1,
+      "name": "Panathinaikos (K) - Emlak Konut (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "EuroLeague Women YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 17:00:00",
+    "match": {
+      "mid": "77c67191-1483-2c00-e05f-170f8f65b094",
+      "uuid": "cqkcw7swf57ky0k66b77iulg4",
+      "sport": 2,
+      "status": 1,
+      "name": "Carolo (K) - Brno (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "EuroLeague Women YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 16:00:00",
+    "match": {
+      "mid": "cc004881-804b-fbe4-487b-ecfbd0c3f16f",
+      "uuid": "9hapf6i2uvbp0hkxh1lv7tfdg",
+      "sport": 2,
+      "status": 1,
+      "name": "Kibirkstis (K) - AZS Poznan (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "EuroLeague Women YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 16:00:00",
+    "match": {
+      "mid": "ca2254cb-a206-3c3e-ad7f-fb302dd62a74",
+      "uuid": "akmp0plfkqpzcn47tb0sgxqtw",
+      "sport": 2,
+      "status": 1,
+      "name": "Zabiny Brno (K) - Kızılyıldız (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "EuroLeague Women YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 14:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler Süper Ligi / Beykoz Bld. - Spor Toto SK",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 12:00:00",
+    "match": {
+      "sport": 5,
+      "name": "Hentbol Erkekler Süper Ligi / İstanbul Gençlik - Giresunspor",
+      "sport_name": "Hentbol"
+    },
+    "channels": [
+      {
+        "name": "THF TV YouTube"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 00:00:00",
+    "match": {
+      "mid": "7b508577-16d5-6bb6-ccdf-19341bff280f",
+      "uuid": "12ojvzhq76esnciqpdr7r3bx0",
+      "sport": 2,
+      "status": 1,
+      "name": "Sky (K) - Tempo (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-23 00:00:00",
+    "match": {
+      "mid": "47dfa074-03d5-2f1f-42ae-ea30150add93",
+      "uuid": "122muke9suwjd0qqpj4ghb02c",
+      "sport": 2,
+      "status": 1,
+      "name": "Fever (K) - Minnesota (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  },
+  {
+    "date_time_utc": "2026-09-22 23:30:00",
+    "match": {
+      "mid": "92b46c6b-d2b5-2f3f-dc35-26886c6afdb0",
+      "uuid": "11gti65unlmyfaawlk15o6784",
+      "sport": 2,
+      "status": 1,
+      "name": "Mystics (K) - Connecticut (K)",
+      "sport_name": "Basketbol"
+    },
+    "channels": [
+      {
+        "name": "Amazon Prime Video"
+      }
+    ]
+  }
+]
